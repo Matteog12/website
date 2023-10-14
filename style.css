@@ -301,6 +301,10 @@ main img {
     .description > div {
         margin: 0 auto;
     }
+
+    .description > div > p {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 768px) {
