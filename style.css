@@ -19,7 +19,7 @@ footer {
     padding-bottom: 5vh;
 }
 
-ul {
+.orizontal-flex {
     display: inline-flex;
     justify-content: flex-start;
     align-content: center;
@@ -27,6 +27,11 @@ ul {
 
     padding: 0;
     margin: 0;
+}
+
+.bi {
+    height: 24px;
+    width: auto;
 }
 
 li {
@@ -102,6 +107,7 @@ p {
 }
 
 #sep {
+    /* background-color: red; */
     height: 0vw;
 }
 
@@ -183,7 +189,7 @@ main img {
 /* WORK SECTION */
 
 #work {
-    padding: 8vh 20vw;
+    padding: 0 20vw;
     margin-bottom: 16vh;
     display: grid;
     grid-template: auto 1fr 1fr / 1fr 1fr;
@@ -278,6 +284,7 @@ main img {
     #about, #work{
         padding-left: 4vw;
         padding-right: 4vw;
+        gap: 2%;
     }
 
     #about p, #work p {
@@ -337,7 +344,7 @@ main img {
     }
 
     .profile {
-        top: 280px;
+        top: 290px;
     }
 
     #sep {
