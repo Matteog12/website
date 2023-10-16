@@ -248,6 +248,22 @@ main img {
     background-color: #DB6400;
 }
 
+/* FOOTER */
+
+.social-icons {
+    text-align: center;
+    padding: 5vh 8vw;
+}
+
+.social-icons > .orizontal-flex {
+    /* display: flex; */
+    width: 30vw;
+}
+
+.social-icons .bi {
+    margin: 0 0.5rem;
+}
+
 @media (max-width: 1280px) {
 
     #hero {
